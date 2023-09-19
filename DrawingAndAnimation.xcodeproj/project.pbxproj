@@ -14,6 +14,8 @@
 		E4C322742AB94C4100C55255 /* DrawingAndAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C322732AB94C4100C55255 /* DrawingAndAnimationTests.swift */; };
 		E4C3227E2AB94C4100C55255 /* DrawingAndAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C3227D2AB94C4100C55255 /* DrawingAndAnimationUITests.swift */; };
 		E4C322802AB94C4100C55255 /* DrawingAndAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C3227F2AB94C4100C55255 /* DrawingAndAnimationUITestsLaunchTests.swift */; };
+		E4C3228D2AB94CAA00C55255 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C3228C2AB94CAA00C55255 /* HexagonParameters.swift */; };
+		E4C3228F2AB94D9800C55255 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C3228E2AB94D9800C55255 /* BadgeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E4C322792AB94C4100C55255 /* DrawingAndAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingAndAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C3227D2AB94C4100C55255 /* DrawingAndAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAndAnimationUITests.swift; sourceTree = "<group>"; };
 		E4C3227F2AB94C4100C55255 /* DrawingAndAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAndAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4C3228C2AB94CAA00C55255 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		E4C3228E2AB94D9800C55255 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				E4C322622AB94C3E00C55255 /* DrawingAndAnimationApp.swift */,
 				E4C322642AB94C3E00C55255 /* ContentView.swift */,
+				E4C3228C2AB94CAA00C55255 /* HexagonParameters.swift */,
+				E4C3228E2AB94D9800C55255 /* BadgeBackground.swift */,
 				E4C322662AB94C4100C55255 /* Assets.xcassets */,
 				E4C322682AB94C4100C55255 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C3228D2AB94CAA00C55255 /* HexagonParameters.swift in Sources */,
 				E4C322652AB94C3E00C55255 /* ContentView.swift in Sources */,
 				E4C322632AB94C3E00C55255 /* DrawingAndAnimationApp.swift in Sources */,
+				E4C3228F2AB94D9800C55255 /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
